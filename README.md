@@ -20,7 +20,7 @@ npm run docker-start
 And visit http://localhost:8000
 
 #### Project Structure
-Files are organized as described in specification.
+Files are organized as in specification example.
 
 #### NPM Commands
 ```bash
