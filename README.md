@@ -11,5 +11,12 @@ npm start
 ```
 Visit http://localhost:5173
 
+#### Npm Commands
+```bash
+npm start            # start local server
+npm run build        # build to plain html and js
+npm run docker-debug # build, run and visit image in bash to inspect
+```
+
 #### Specification
-View requirements and progress [here](./SPECIFICATION.md)
+[SPECIFICATION.md](./SPECIFICATION.md): requirements and progress on them 

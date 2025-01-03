@@ -4,6 +4,8 @@
   "description": "React-based prototype of a Service Catalogue Platform",
   "private": true,
   "scripts": {
+    "build": "vite build",
+    "docker-debug": "docker build -t demo-catalogue . && docker run -it --rm demo-catalogue bash",
     "start": "vite"
   },
   "keywords": [],
