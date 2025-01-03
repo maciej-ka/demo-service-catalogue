@@ -136,8 +136,8 @@ export const services = [
 
 #### 6. Deliverables
 - [X] Source Code: Hosted on a public or private GitHub/GitLab repository.
-- [.] README.md:
-  - [ ] Setup instructions.  
+- [o] README.md:
+  - [X] Setup instructions.  
   - [ ] Brief explanation of the project structure.  
   - [X] Steps to run the project locally.  
 - [ ] Working Prototype: A functioning React app demonstrating the described functionality.
@@ -156,7 +156,7 @@ export const services = [
 - [ ] Implement Pagination on the service list page.
 - [ ] Add Search and Filtering functionality.
 - [X] Use TypeScript instead of JavaScript.
-- [ ] Dockerize the application for easier deployment.
+- [X] Dockerize the application for easier deployment.
 
 #### 9. Submission Deadline
 You have 7 days to complete the project. If you encounter challenges or need clarification, feel free to reach out.

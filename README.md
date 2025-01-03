@@ -9,14 +9,23 @@ cd demo-service-catalogue
 npm i
 npm start
 ```
-Visit http://localhost:5173
+And visit http://localhost:5173
 
-#### Npm Commands
+#### Docker
+Dockerfile contains nginx production setup.  
+To test container locally
 ```bash
-npm start            # start local server
+npm run docker-start
+```
+And visit http://localhost:80
+
+#### NPM Commands
+```bash
+npm start            # run local server
 npm run build        # build to plain html and js
-npm run docker-debug # build, run and visit image in bash to inspect
+npm run docker-start # run server inside container
+npm run docker-debug # visit container to inspect
 ```
 
 #### Specification
-[SPECIFICATION.md](./SPECIFICATION.md): requirements and progress on them 
+[SPECIFICATION.md](./SPECIFICATION.md) requirements and progress on them 
