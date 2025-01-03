@@ -1,3 +1,13 @@
+### Demo of React Service
+#### Run on localhost
+```bash
+git clone https://github.com/maciej-ka/demo-service-catalogue.git
+cd demo-service-catalogue
+npm i
+npm run start
+```
+Visit local version at http://localhost:5173
+
 ## Specification
 ### Service Catalogue Platform Prototype
 #### 1. Objective
