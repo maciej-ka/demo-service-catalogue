@@ -136,7 +136,7 @@ export const services = [
 
 #### 6. Deliverables
 - [X] Source Code: Hosted on a public or private GitHub/GitLab repository.
-- [-] README.md:
+- [ ] README.md:
   - [X] Setup instructions.  
   - [ ] Brief explanation of the project structure.  
   - [X] Steps to run the project locally.  
