@@ -1,0 +1,22 @@
+{
+  "name": "demo-service-catalogue",
+  "version": "1.0.0",
+  "description": "React-based prototype of a Service Catalogue Platform",
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}
