@@ -5,54 +5,54 @@
 ## Specification
 ### Service Catalogue Platform Prototype
 #### 1. Objective
-Develop a React-based prototype of a Service Catalogue Platform
-to demonstrate your ability to build a responsive, user-friendly
-web application with navigation, dynamic data handling, and state
+Develop a React-based prototype of a Service Catalogue Platform  
+to demonstrate your ability to build a responsive, user-friendly  
+web application with navigation, dynamic data handling, and state  
 management.
 
 #### 2. Project Requirements
-A medium-sized IT service provider wants to develop a Service Catalogue
+A medium-sized IT service provider wants to develop a Service Catalogue  
 Platform to showcase their services to potential clients.
 
-The platform should allow users to:
+The platform should allow users to:  
 - View a list of available services.
 - Access detailed information about each service.
 - Navigate through an order wizard to configure and finalize service orders.
 
-This prototype will act as a proof of concept
+This prototype will act as a proof of concept  
 and will use mocked data for demonstration purposes.
 
 #### 3. Core Functionality
-**1.1. Service List Page**
+**1.1. Service List Page**  
 - [ ] Display a list of available services.
 - [ ] Each service should show:
-  - [ ] Service Name
-  - [ ] Short Description
-  - [ ] Price
+  - [ ] Service Name  
+  - [ ] Short Description  
+  - [ ] Price  
 - [ ] Include a “View Details” button/link for each service to navigate to the detailed view.
 
-**1.2. Service Details Page**
+**1.2. Service Details Page**  
 - [ ] Display detailed information about a selected service.
 - [ ] Include attributes:
-  - [ ] Service Name
-  - [ ] Detailed Description
-  - [ ] Price
+  - [ ] Service Name  
+  - [ ] Detailed Description  
+  - [ ] Price  
 - [ ] Provide a “Back to Catalogue” button to navigate back to the Service List page.
 
-**1.3. Service Order Wizard**
+**1.3. Service Order Wizard**  
 - [ ] Step 1: Owner Details
-  - [ ] Input field for Owner Name
-  - [ ] Input field for Provisioning Date
-  - [ ] Input field for Decommissioning Date
+  - [ ] Input field for Owner Name  
+  - [ ] Input field for Provisioning Date  
+  - [ ] Input field for Decommissioning Date  
 - [ ] Step 2: Cost Details
-  - [ ] Display Price of the selected service
-  - [ ] Input field for Additional Notes
+  - [ ] Display Price of the selected service  
+  - [ ] Input field for Additional Notes  
 - [ ] Step 3: Order Summary
-  - [ ] Display a summary of selected service details and user inputs
+  - [ ] Display a summary of selected service details and user inputs  
   - [ ] Include buttons: Back, Next, Submit Order
 
 - [ ] State Management:
-  - [ ] Ensure user inputs are preserved when navigating between wizard steps.
+  - [ ] Ensure user inputs are preserved when navigating between wizard steps.  
   - [ ] Show a confirmation message upon order submission.
 
 #### 1.4. Technology Stack
@@ -119,38 +119,42 @@ export const services = [
 ```
 
 #### 5. Functional Requirements
-**1. Navigation:**
+**1. Navigation:**  
 - [ ] / → Service List
 - [ ] /service/:id → Service Details
 - [ ] /service/:id/order → Order Wizard
-**2. State Management:**
+
+**2. State Management:**  
 - [ ] Persist order wizard state across wizard steps.
 - [ ] Preserve selected service data throughout the ordering process.
-**3. Responsive Design:**
+
+**3. Responsive Design:**  
 - [ ] Ensure the app is responsive and works well on desktop, tablet, and mobile devices.
-**4. Form Validation:**
+
+**4. Form Validation:**  
 - [ ] Validate required fields in the wizard steps.
 - [ ] Show appropriate error messages when inputs are invalid.
-**5. User Feedback:**
+
+**5. User Feedback:**  
 - [ ] Provide loading indicators during data fetching.
 - [ ] Show success/error messages for form submissions.
 
 #### 6. Deliverables
 - [ ] Source Code: Hosted on a public or private GitHub/GitLab repository.
 - [ ] README.md:
-  - [ ] Setup instructions.
-  - [ ] Brief explanation of the project structure.
-  - [ ] Steps to run the project locally.
+  - [ ] Setup instructions.  
+  - [ ] Brief explanation of the project structure.  
+  - [ ] Steps to run the project locally.  
 - [ ] Working Prototype: A functioning React app demonstrating the described functionality.
 - [ ] Bonus Deliverable (Optional): Deployment on Netlify, **Vercel**, or any other platform.
 
 #### 7. Evaluation Criteria
-1. Code Quality: Clean, modular, and reusable components.
-2. UI/UX Design: Intuitive navigation and user-friendly interface.
-3. State Management: Proper handling of state across components.
-4. API Integration: Effective use of mocked data.
-5. [ ] Responsiveness: Proper layout and design on different devices.
-6. [ ] Documentation: Clear and concise README file.
+1. Code Quality: Clean, modular, and reusable components.  
+2. UI/UX Design: Intuitive navigation and user-friendly interface.  
+3. State Management: Proper handling of state across components.  
+4. API Integration: Effective use of mocked data.  
+5. [ ] Responsiveness: Proper layout and design on different devices.  
+6. [ ] Documentation: Clear and concise README file.  
 7. [ ] Error Handling: Clear error messages and validation on user inputs.
 
 #### 8. Bonus Points
@@ -163,7 +167,7 @@ export const services = [
 You have 7 days to complete the project. If you encounter challenges or need clarification, feel free to reach out.
 
 #### 10. Final Notes
-By the end of this project, we expect to see a functional prototype showcasing your ability to:
-• Clean Code: Readable and well-structured code.
-• User Experience: Ensure seamless navigation and intuitive design.
+By the end of this project, we expect to see a functional prototype showcasing your ability to:  
+• Clean Code: Readable and well-structured code.  
+• User Experience: Ensure seamless navigation and intuitive design.  
 • Best Practices: Follow React development best practices.
