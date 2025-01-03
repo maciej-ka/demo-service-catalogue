@@ -1,7 +1,3 @@
-### Setup
-### Run locally
-### Project structure
-
 ## Specification
 ### Service Catalogue Platform Prototype
 #### 1. Objective
@@ -149,13 +145,13 @@ export const services = [
 - [ ] Bonus Deliverable (Optional): Deployment on Netlify, **Vercel**, or any other platform.
 
 #### 7. Evaluation Criteria
-1. Code Quality: Clean, modular, and reusable components.  
-2. UI/UX Design: Intuitive navigation and user-friendly interface.  
-3. State Management: Proper handling of state across components.  
-4. API Integration: Effective use of mocked data.  
-5. [ ] Responsiveness: Proper layout and design on different devices.  
-6. [ ] Documentation: Clear and concise README file.  
-7. [ ] Error Handling: Clear error messages and validation on user inputs.
+- [ ] Code Quality: Clean, modular, and reusable components.  
+- [ ] UI/UX Design: Intuitive navigation and user-friendly interface.  
+- [ ] State Management: Proper handling of state across components.  
+- [ ] API Integration: Effective use of mocked data.  
+- [ ] Responsiveness: Proper layout and design on different devices.  
+- [ ] Documentation: Clear and concise README file.  
+- [ ] Error Handling: Clear error messages and validation on user inputs.
 
 #### 8. Bonus Points
 - [ ] Implement Pagination on the service list page.
@@ -168,6 +164,6 @@ You have 7 days to complete the project. If you encounter challenges or need cla
 
 #### 10. Final Notes
 By the end of this project, we expect to see a functional prototype showcasing your ability to:  
-• Clean Code: Readable and well-structured code.  
-• User Experience: Ensure seamless navigation and intuitive design.  
-• Best Practices: Follow React development best practices.
+- Clean Code: Readable and well-structured code.  
+- User Experience: Ensure seamless navigation and intuitive design.  
+- Best Practices: Follow React development best practices.
