@@ -6,7 +6,7 @@
   "scripts": {
     "build": "vite build",
     "docker-debug": "docker build -t demo-catalogue . && docker run --rm -it demo-catalogue bash",
-    "docker-start": "docker build -t demo-catalogue . && docker run --rm -p 80:80 demo-catalogue",
+    "docker-start": "docker build -t demo-catalogue . && docker run --rm -p 8000:80 demo-catalogue",
     "start": "vite"
   },
   "keywords": [],
@@ -14,7 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1"
   },
   "devDependencies": {
     "@types/react": "^19.0.2",

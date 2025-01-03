@@ -17,7 +17,10 @@ To test container locally
 ```bash
 npm run docker-start
 ```
-And visit http://localhost:80
+And visit http://localhost:8000
+
+#### Project Structure
+Files are organized as described in specification.
 
 #### NPM Commands
 ```bash
@@ -28,4 +31,4 @@ npm run docker-debug # visit container to inspect
 ```
 
 #### Specification
-[SPECIFICATION.md](./SPECIFICATION.md) requirements and progress on them 
+[SPECIFICATION.md](./SPECIFICATION.md) requirements and progress on completing them

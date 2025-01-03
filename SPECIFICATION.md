@@ -53,7 +53,7 @@ and will use mocked data for demonstration purposes.
 #### 1.4. Technology Stack
 - [X] Framework: **React** (latest version)
 - [ ] State Management: Context API or Redux (optional)
-- [ ] Routing: **React Router**
+- [X] Routing: **React Router**
 - [ ] Data Handling: Mocked Data (as provided below)
 - [ ] Styling: **CSS Modules** / TailwindCSS / Styled Components
 - [X] Package Management: **npm** or yarn
@@ -115,9 +115,9 @@ export const services = [
 
 #### 5. Functional Requirements
 **1. Navigation:**  
-- [ ] / → Service List
-- [ ] /service/:id → Service Details
-- [ ] /service/:id/order → Order Wizard
+- [X] `/` → Service List
+- [X] `/service/:id` → Service Details
+- [X] `/service/:id/order` → Order Wizard
 
 **2. State Management:**  
 - [ ] Persist order wizard state across wizard steps.
