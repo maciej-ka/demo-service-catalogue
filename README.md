@@ -1,10 +1,13 @@
-### Demo of React Service
+### Demo of a React Service
+#### Hosted on Vercel
+https://demo-service-catalogue.vercel.app/
+
 #### Run on localhost
 ```bash
 git clone https://github.com/maciej-ka/demo-service-catalogue.git
 cd demo-service-catalogue
 npm i
-npm run start
+npm start
 ```
 Visit local version at http://localhost:5173
 
@@ -62,12 +65,12 @@ and will use mocked data for demonstration purposes.
   - [ ] Show a confirmation message upon order submission.
 
 #### 1.4. Technology Stack
-- [ ] Framework: **React** (latest version)
+- [X] Framework: **React** (latest version)
 - [ ] State Management: **Context API** or Redux (optional)
 - [ ] Routing: **React Router**
 - [ ] Data Handling: Mocked Data (as provided below)
 - [ ] Styling: **CSS Modules** / TailwindCSS / Styled Components
-- [ ] Package Management: **npm** or yarn
+- [X] Package Management: **npm** or yarn
 
 #### 1.5. Mock Data (daja.js)
 ```javascript
@@ -146,13 +149,13 @@ export const services = [
 - [ ] Show success/error messages for form submissions.
 
 #### 6. Deliverables
-- [ ] Source Code: Hosted on a public or private GitHub/GitLab repository.
-- [ ] README.md:
+- [X] Source Code: Hosted on a public or private GitHub/GitLab repository.
+- [.] README.md:
   - [ ] Setup instructions.  
   - [ ] Brief explanation of the project structure.  
-  - [ ] Steps to run the project locally.  
+  - [X] Steps to run the project locally.  
 - [ ] Working Prototype: A functioning React app demonstrating the described functionality.
-- [ ] Bonus Deliverable (Optional): Deployment on Netlify, **Vercel**, or any other platform.
+- [X] Bonus Deliverable (Optional): Deployment on Netlify, **Vercel**, or any other platform.
 
 #### 7. Evaluation Criteria
 - [ ] Code Quality: Clean, modular, and reusable components.  
@@ -166,7 +169,7 @@ export const services = [
 #### 8. Bonus Points
 - [ ] Implement Pagination on the service list page.
 - [ ] Add Search and Filtering functionality.
-- [ ] Use TypeScript instead of JavaScript.
+- [X] Use TypeScript instead of JavaScript.
 - [ ] Dockerize the application for easier deployment.
 
 #### 9. Submission Deadline
