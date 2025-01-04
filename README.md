@@ -22,6 +22,9 @@ And visit http://localhost:8000
 #### Project Structure
 Files are organized as given in specification example.
 
+[HeadlessUI](https://headlessui.com/) is used instead of base html tags like `<input>`
+to provide a better starting point for building custom UI.
+
 #### NPM Commands
 ```bash
 npm start            # run local server
