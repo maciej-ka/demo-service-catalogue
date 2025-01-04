@@ -21,19 +21,20 @@ Dockerfile contains nginx production setup.
 To test container locally
 
 ```bash
-npm run docker-start
+npm run start:docker
 ```
 
 And visit http://localhost:8000
 
 #### Tests
 
-Run integration tests in console
+To run all tests and checks
 
 ```bash
 npm run test
 ```
 
+For more fine grained, check
 Open Playwright UI client
 
 ```bash
@@ -47,15 +48,15 @@ Files are organized as given in specification example.
 [HeadlessUI](https://headlessui.com/) is used instead of base html tags like `<input>`
 to provide a better starting point for building custom UI.
 
-#### NPM Commands
+#### npm Commands
 
 ```bash
-npm start            # run local server
-npm run build        # build to plain html and js
-npm run docker-start # run server inside container
-npm run docker-debug # visit container to inspect
-npm run test         # run tests in console
-npm run test-ui      # run tests in ui client
+npm start                # run local server
+npm run build            # build to plain html and js
+npm run start:docker     # run server inside container
+npm run docker:debug     # inspect container in bash
+npm run test             # run all tests and checks
+npm run test:integration # run integration tests in console
 ```
 
 #### Specification
