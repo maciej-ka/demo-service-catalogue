@@ -1,4 +1,3 @@
-import React from "react"
 import { Field, Input, Label } from "@headlessui/react"
 import { useParams } from "react-router-dom"
 import { useForm } from "react-hook-form"

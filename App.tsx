@@ -1,4 +1,3 @@
-import React from "react"
 import { Routes, Route, Navigate } from "react-router-dom"
 import ServiceOrderPage from "./pages/ServiceOrderPage/ServiceOrderPage"
 import ServiceDetailsPage from "./pages/ServiceDetailsPage/ServiceDetailsPage"
