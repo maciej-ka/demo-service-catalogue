@@ -26,38 +26,48 @@ npm run start:docker
 
 And visit http://localhost:8000
 
-#### Tests
-
-To run all tests and checks
+There is also a debug command in case image has  
+problems and needs to be inspected in bash
 
 ```bash
-npm run test
+npm run debug:docker
 ```
 
-For more fine grained, check
-Open Playwright UI client
+#### Tests
+
+Project has these tests and checks  
+reported with github actions in pull requests
+
+- prettier `npm run test:prettier`
+- eslint `npm run test:linter`
+- typescript `npm run test:typescript`
+- playwright `npm run test:integration`
+
+Run them all locally
 
 ```bash
-npm run test-ui
+npm test
+```
+
+Fix Linter and Prettier
+
+```bash
+npm run linter:fix
+npm run prettier:fix
+```
+
+Start Playwright UI client
+
+```bash
+npm run test:integration:ui
 ```
 
 #### Project Structure
 
 Files are organized as given in specification example.
 
-[HeadlessUI](https://headlessui.com/) is used instead of base html tags like `<input>`
-to provide a better starting point for building custom UI.
-
-#### npm Commands
-
-```bash
-npm start                # run local server
-npm run build            # build to plain html and js
-npm run start:docker     # run server inside container
-npm run docker:debug     # inspect container in bash
-npm run test             # run all tests and checks
-npm run test:integration # run integration tests in console
-```
+[HeadlessUI](https://headlessui.com/) is used instead of base html tags like `<input>`  
+to provide a better starting point to build a custom UI.
 
 #### Specification
 
