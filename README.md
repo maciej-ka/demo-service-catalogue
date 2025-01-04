@@ -19,6 +19,17 @@ npm run docker-start
 ```
 And visit http://localhost:8000
 
+#### Tests
+Run integration tests in console
+```bash
+npm run test
+```
+
+Open Playwright UI client
+```bash
+npm run test-ui
+```
+
 #### Project Structure
 Files are organized as given in specification example.
 
@@ -31,6 +42,8 @@ npm start            # run local server
 npm run build        # build to plain html and js
 npm run docker-start # run server inside container
 npm run docker-debug # visit container to inspect
+npm run test         # run tests in console
+npm run test-ui      # run tests in ui client
 ```
 
 #### Specification
