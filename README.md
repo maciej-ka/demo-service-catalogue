@@ -1,10 +1,10 @@
 ### Demo of a React Service
 
-#### Hosted on Vercel
+#### Visit hosted
 
 https://demo-service-catalogue.vercel.app/
 
-#### Run on localhost
+#### Run locally
 
 ```bash
 git clone https://github.com/maciej-ka/demo-service-catalogue.git
@@ -13,9 +13,9 @@ npm i
 npm start
 ```
 
-And visit http://localhost:5173
+And visit localhost:5173
 
-#### Docker
+#### Run on Docker
 
 Dockerfile contains nginx production setup.  
 To test container locally
@@ -24,7 +24,7 @@ To test container locally
 npm run start:docker
 ```
 
-And visit http://localhost:8000
+And visit localhost:8000
 
 There is also a debug command in case image has  
 problems and needs to be inspected in bash
@@ -33,10 +33,10 @@ problems and needs to be inspected in bash
 npm run debug:docker
 ```
 
-#### Tests
+#### Tests and checks
 
-Project has these tests and checks  
-reported with github actions in pull requests
+Project has several tests and checks.  
+They are reported in pull requests
 
 - prettier `npm run test:prettier`
 - eslint `npm run test:linter`
@@ -66,9 +66,9 @@ npm run test:integration:ui
 
 Files are organized as given in specification example.
 
-[HeadlessUI](https://headlessui.com/) is used instead of base html tags like `<input>`  
+HeadlessUI is used instead of base html tags like `<input>`  
 to provide a better starting point to build a custom UI.
 
 #### Specification
 
-[SPECIFICATION.md](./SPECIFICATION.md) requirements and progress on completing them
+View [SPECIFICATION.md](./SPECIFICATION.md) to see progress on completing requirements
