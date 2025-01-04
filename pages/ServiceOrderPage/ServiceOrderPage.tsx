@@ -1,27 +1,29 @@
-import React from 'react'
-import { Description, Field, Input, Label } from '@headlessui/react'
-import { useParams } from 'react-router-dom'
-import clsx from 'clsx'
-import styles from './ServiceOrderPage.module.css'
+import React from "react";
+import { Field, Input, Label } from "@headlessui/react";
+import { useParams } from "react-router-dom";
+import { useForm } from "react-hook-form";
+import styles from "./ServiceOrderPage.module.css";
 
 const ServiceOrderPage = () => {
-  const { id } = useParams()
+  const { id } = useParams();
+  const {
+    register,
+    formState: { errors },
+  } = useForm({ mode: "onBlur" });
+
   return (
-    <div className={styles.container}>
+    <div className={styles.wrapper}>
       Service Order Page, id: {id}
       <Field>
-        <Label className={styles.fieldLabel}>
-          Name
-        </Label>
-        <Description className={styles.fieldDescription}>
-          Use your real name so people will recognize you.
-        </Description>
+        <Label className={styles.label}>Name</Label>
         <Input
-          className={clsx(styles.fieldInput)}
+          className={styles.input}
+          {...register("ownerName", { required: true })}
         />
+        {errors.ownerName && <p>Owner name is required.</p>}
       </Field>
     </div>
-  )
-}
+  );
+};
 
-export default ServiceOrderPage
+export default ServiceOrderPage;
