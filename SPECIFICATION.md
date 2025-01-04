@@ -21,33 +21,33 @@ and will use mocked data for demonstration purposes.
 **1.1. Service List Page**  
 - [ ] Display a list of available services.
 - [ ] Each service should show:
-  - [ ] Service Name  
-  - [ ] Short Description  
-  - [ ] Price  
+  - [ ] Service Name
+  - [ ] Short Description
+  - [ ] Price
 - [ ] Include a “View Details” button/link for each service to navigate to the detailed view.
 
 **1.2. Service Details Page**  
 - [ ] Display detailed information about a selected service.
 - [ ] Include attributes:
-  - [ ] Service Name  
-  - [ ] Detailed Description  
-  - [ ] Price  
+  - [ ] Service Name
+  - [ ] Detailed Description
+  - [ ] Price
 - [ ] Provide a “Back to Catalogue” button to navigate back to the Service List page.
 
 **1.3. Service Order Wizard**  
 - [ ] Step 1: Owner Details
-  - [ ] Input field for Owner Name  
-  - [ ] Input field for Provisioning Date  
-  - [ ] Input field for Decommissioning Date  
+  - [ ] Input field for Owner Name
+  - [ ] Input field for Provisioning Date
+  - [ ] Input field for Decommissioning Date
 - [ ] Step 2: Cost Details
-  - [ ] Display Price of the selected service  
-  - [ ] Input field for Additional Notes  
+  - [ ] Display Price of the selected service
+  - [ ] Input field for Additional Notes
 - [ ] Step 3: Order Summary
-  - [ ] Display a summary of selected service details and user inputs  
+  - [ ] Display a summary of selected service details and user inputs
   - [ ] Include buttons: Back, Next, Submit Order
 
 - [ ] State Management:
-  - [ ] Ensure user inputs are preserved when navigating between wizard steps.  
+  - [ ] Ensure user inputs are preserved when navigating between wizard steps.
   - [ ] Show a confirmation message upon order submission.
 
 #### 1.4. Technology Stack
@@ -137,19 +137,19 @@ export const services = [
 #### 6. Deliverables
 - [X] Source Code: Hosted on a public or private GitHub/GitLab repository.
 - [ ] README.md:
-  - [X] Setup instructions.  
-  - [ ] Brief explanation of the project structure.  
-  - [X] Steps to run the project locally.  
+  - [X] Setup instructions.
+  - [ ] Brief explanation of the project structure.
+  - [X] Steps to run the project locally.
 - [ ] Working Prototype: A functioning React app demonstrating the described functionality.
 - [X] Bonus Deliverable (Optional): Deployment on Netlify, **Vercel**, or any other platform.
 
 #### 7. Evaluation Criteria
-- [ ] Code Quality: Clean, modular, and reusable components.  
-- [ ] UI/UX Design: Intuitive navigation and user-friendly interface.  
-- [ ] State Management: Proper handling of state across components.  
-- [ ] API Integration: Effective use of mocked data.  
-- [ ] Responsiveness: Proper layout and design on different devices.  
-- [X] Documentation: Clear and concise README file.  
+- [ ] Code Quality: Clean, modular, and reusable components.
+- [ ] UI/UX Design: Intuitive navigation and user-friendly interface.
+- [ ] State Management: Proper handling of state across components.
+- [ ] API Integration: Effective use of mocked data.
+- [ ] Responsiveness: Proper layout and design on different devices.
+- [X] Documentation: Clear and concise README file.
 - [ ] Error Handling: Clear error messages and validation on user inputs.
 
 #### 8. Bonus Points
@@ -163,6 +163,6 @@ You have 7 days to complete the project. If you encounter challenges or need cla
 
 #### 10. Final Notes
 By the end of this project, we expect to see a functional prototype showcasing your ability to:  
-- Clean Code: Readable and well-structured code.  
-- User Experience: Ensure seamless navigation and intuitive design.  
+- Clean Code: Readable and well-structured code.
+- User Experience: Ensure seamless navigation and intuitive design.
 - Best Practices: Follow React development best practices.
