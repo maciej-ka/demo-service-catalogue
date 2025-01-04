@@ -1,6 +1,7 @@
 {
   "name": "demo-service-catalogue",
   "version": "1.0.0",
+  "type": "module",
   "description": "React-based prototype of a Service Catalogue Platform",
   "private": true,
   "scripts": {
