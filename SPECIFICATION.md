@@ -55,7 +55,7 @@ and will use mocked data for demonstration purposes.
 - [ ] State Management: Context API or Redux (optional)
 - [X] Routing: **React Router**
 - [ ] Data Handling: Mocked Data (as provided below)
-- [ ] Styling: **CSS Modules** / TailwindCSS / Styled Components
+- [X] Styling: **CSS Modules** / TailwindCSS / Styled Components
 - [X] Package Management: **npm** or yarn
 
 #### 1.5. Mock Data (daja.js)
