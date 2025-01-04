@@ -1,15 +1,22 @@
 {
   "name": "demo-service-catalogue",
   "version": "1.0.0",
+  "type": "module",
   "description": "React-based prototype of a Service Catalogue Platform",
   "private": true,
   "scripts": {
     "build": "vite build",
-    "docker-debug": "docker build -t demo-catalogue . && docker run --rm -it demo-catalogue bash",
-    "docker-start": "docker build -t demo-catalogue . && docker run --rm -p 8000:80 demo-catalogue",
+    "debug:docker": "docker build -t demo-catalogue . && docker run --rm -it demo-catalogue bash",
+    "linter:fix": "eslint . --fix",
+    "prettier:fix": "prettier --write .",
     "start": "vite",
-    "test": "playwright test",
-    "test-ui": "playwright test --ui"
+    "start:docker": "docker build -t demo-catalogue . && docker run --rm -p 8000:80 demo-catalogue",
+    "test": "npm run test:prettier && npm run test:linter && npm run test:typescript && npm run test:integration",
+    "test:integration": "playwright test",
+    "test:integration:ui": "playwright test --ui",
+    "test:linter": "eslint .",
+    "test:prettier": "prettier --check .",
+    "test:typescript": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +34,14 @@
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.19.0",
+    "@typescript-eslint/parser": "^8.19.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "prettier": "^3.4.2",
     "typescript": "^5.7.2",
     "vite": "^6.0.7"
   }

@@ -1,50 +1,74 @@
 ### Demo of a React Service
+
 #### Hosted on Vercel
+
 https://demo-service-catalogue.vercel.app/
 
 #### Run on localhost
+
 ```bash
 git clone https://github.com/maciej-ka/demo-service-catalogue.git
 cd demo-service-catalogue
 npm i
 npm start
 ```
+
 And visit http://localhost:5173
 
 #### Docker
+
 Dockerfile contains nginx production setup.  
 To test container locally
+
 ```bash
-npm run docker-start
+npm run start:docker
 ```
+
 And visit http://localhost:8000
 
-#### Tests
-Run integration tests in console
+There is also a debug command in case image has  
+problems and needs to be inspected in bash
+
 ```bash
-npm run test
+npm run debug:docker
 ```
 
-Open Playwright UI client
+#### Tests
+
+Project has these tests and checks  
+reported with github actions in pull requests
+
+- prettier `npm run test:prettier`
+- eslint `npm run test:linter`
+- typescript `npm run test:typescript`
+- playwright `npm run test:integration`
+
+Run them all locally
+
 ```bash
-npm run test-ui
+npm test
+```
+
+Fix Linter and Prettier
+
+```bash
+npm run linter:fix
+npm run prettier:fix
+```
+
+Start Playwright UI client
+
+```bash
+npm run test:integration:ui
 ```
 
 #### Project Structure
+
 Files are organized as given in specification example.
 
-[HeadlessUI](https://headlessui.com/) is used instead of base html tags like `<input>`
-to provide a better starting point for building custom UI.
-
-#### NPM Commands
-```bash
-npm start            # run local server
-npm run build        # build to plain html and js
-npm run docker-start # run server inside container
-npm run docker-debug # visit container to inspect
-npm run test         # run tests in console
-npm run test-ui      # run tests in ui client
-```
+[HeadlessUI](https://headlessui.com/) is used instead of base html tags like `<input>`  
+to provide a better starting point to build a custom UI.
 
 #### Specification
+
 [SPECIFICATION.md](./SPECIFICATION.md) requirements and progress on completing them

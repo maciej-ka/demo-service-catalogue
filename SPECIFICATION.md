@@ -1,15 +1,19 @@
 ### Service Catalogue Platform Prototype
+
 #### 1. Objective
+
 Develop a React-based prototype of a Service Catalogue Platform  
 to demonstrate your ability to build a responsive, user-friendly  
 web application with navigation, dynamic data handling, and state  
 management.
 
 #### 2. Project Requirements
+
 A medium-sized IT service provider wants to develop a Service Catalogue  
 Platform to showcase their services to potential clients.
 
-The platform should allow users to:  
+The platform should allow users to:
+
 - View a list of available services.
 - Access detailed information about each service.
 - Navigate through an order wizard to configure and finalize service orders.
@@ -18,7 +22,9 @@ This prototype will act as a proof of concept
 and will use mocked data for demonstration purposes.
 
 #### 3. Core Functionality
-**1.1. Service List Page**  
+
+**1.1. Service List Page**
+
 - [ ] Display a list of available services.
 - [ ] Each service should show:
   - [ ] Service Name
@@ -26,7 +32,8 @@ and will use mocked data for demonstration purposes.
   - [ ] Price
 - [ ] Include a “View Details” button/link for each service to navigate to the detailed view.
 
-**1.2. Service Details Page**  
+**1.2. Service Details Page**
+
 - [ ] Display detailed information about a selected service.
 - [ ] Include attributes:
   - [ ] Service Name
@@ -34,7 +41,8 @@ and will use mocked data for demonstration purposes.
   - [ ] Price
 - [ ] Provide a “Back to Catalogue” button to navigate back to the Service List page.
 
-**1.3. Service Order Wizard**  
+**1.3. Service Order Wizard**
+
 - [ ] Step 1: Owner Details
   - [ ] Input field for Owner Name
   - [ ] Input field for Provisioning Date
@@ -43,6 +51,7 @@ and will use mocked data for demonstration purposes.
   - [ ] Display Price of the selected service
   - [ ] Input field for Additional Notes
 - [ ] Step 3: Order Summary
+
   - [ ] Display a summary of selected service details and user inputs
   - [ ] Include buttons: Back, Next, Submit Order
 
@@ -51,14 +60,16 @@ and will use mocked data for demonstration purposes.
   - [ ] Show a confirmation message upon order submission.
 
 #### 1.4. Technology Stack
-- [X] Framework: **React** (latest version)
+
+- [x] Framework: **React** (latest version)
 - [ ] State Management: Context API or Redux (optional)
-- [X] Routing: **React Router**
+- [x] Routing: **React Router**
 - [ ] Data Handling: Mocked Data (as provided below)
-- [X] Styling: **CSS Modules** / TailwindCSS / Styled Components
-- [X] Package Management: **npm** or yarn
+- [x] Styling: **CSS Modules** / TailwindCSS / Styled Components
+- [x] Package Management: **npm** or yarn
 
 #### 1.5. Mock Data (daja.js)
+
 ```javascript
 export const services = [
   {
@@ -85,10 +96,11 @@ export const services = [
       "Automation as a Service enables businesses to automate repetitive tasks and workflows. From process optimization to integration with third-party tools, improve efficiency and reduce manual errors with our flexible automation solutions.",
     price: "399 PLN/month",
   },
-];
+]
 ```
 
 #### 1.6. Project Structure Example
+
 ```
 /src
   /components
@@ -114,55 +126,67 @@ export const services = [
 ```
 
 #### 5. Functional Requirements
-**1. Navigation:**  
-- [X] `/` → Service List
-- [X] `/service/:id` → Service Details
-- [X] `/service/:id/order` → Order Wizard
 
-**2. State Management:**  
+**1. Navigation:**
+
+- [x] `/` → Service List
+- [x] `/service/:id` → Service Details
+- [x] `/service/:id/order` → Order Wizard
+
+**2. State Management:**
+
 - [ ] Persist order wizard state across wizard steps.
 - [ ] Preserve selected service data throughout the ordering process.
 
-**3. Responsive Design:**  
+**3. Responsive Design:**
+
 - [ ] Ensure the app is responsive and works well on desktop, tablet, and mobile devices.
 
-**4. Form Validation:**  
+**4. Form Validation:**
+
 - [ ] Validate required fields in the wizard steps.
 - [ ] Show appropriate error messages when inputs are invalid.
 
-**5. User Feedback:**  
+**5. User Feedback:**
+
 - [ ] Provide loading indicators during data fetching.
 - [ ] Show success/error messages for form submissions.
 
 #### 6. Deliverables
-- [X] Source Code: Hosted on a public or private GitHub/GitLab repository.
+
+- [x] Source Code: Hosted on a public or private GitHub/GitLab repository.
 - [ ] README.md:
-  - [X] Setup instructions.
+  - [x] Setup instructions.
   - [ ] Brief explanation of the project structure.
-  - [X] Steps to run the project locally.
+  - [x] Steps to run the project locally.
 - [ ] Working Prototype: A functioning React app demonstrating the described functionality.
-- [X] Bonus Deliverable (Optional): Deployment on Netlify, **Vercel**, or any other platform.
+- [x] Bonus Deliverable (Optional): Deployment on Netlify, **Vercel**, or any other platform.
 
 #### 7. Evaluation Criteria
+
 - [ ] Code Quality: Clean, modular, and reusable components.
 - [ ] UI/UX Design: Intuitive navigation and user-friendly interface.
 - [ ] State Management: Proper handling of state across components.
 - [ ] API Integration: Effective use of mocked data.
 - [ ] Responsiveness: Proper layout and design on different devices.
-- [X] Documentation: Clear and concise README file.
+- [x] Documentation: Clear and concise README file.
 - [ ] Error Handling: Clear error messages and validation on user inputs.
 
 #### 8. Bonus Points
+
 - [ ] Implement Pagination on the service list page.
 - [ ] Add Search and Filtering functionality.
-- [X] Use TypeScript instead of JavaScript.
-- [X] Dockerize the application for easier deployment.
+- [x] Use TypeScript instead of JavaScript.
+- [x] Dockerize the application for easier deployment.
 
 #### 9. Submission Deadline
+
 You have 7 days to complete the project. If you encounter challenges or need clarification, feel free to reach out.
 
 #### 10. Final Notes
-By the end of this project, we expect to see a functional prototype showcasing your ability to:  
+
+By the end of this project, we expect to see a functional prototype showcasing your ability to:
+
 - Clean Code: Readable and well-structured code.
 - User Experience: Ensure seamless navigation and intuitive design.
 - Best Practices: Follow React development best practices.

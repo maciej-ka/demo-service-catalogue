@@ -1,8 +1,8 @@
-import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
-import ServiceOrderPage from './pages/ServiceOrderPage/ServiceOrderPage';
-import ServiceDetailsPage from './pages/ServiceDetailsPage/ServiceDetailsPage';
-import HomePage from './pages/HomePage/HomePage';
+import React from "react"
+import { Routes, Route, Navigate } from "react-router-dom"
+import ServiceOrderPage from "./pages/ServiceOrderPage/ServiceOrderPage"
+import ServiceDetailsPage from "./pages/ServiceDetailsPage/ServiceDetailsPage"
+import HomePage from "./pages/HomePage/HomePage"
 
 const App = () => (
   <div>
@@ -14,4 +14,4 @@ const App = () => (
     </Routes>
   </div>
 )
-export default App;
+export default App
