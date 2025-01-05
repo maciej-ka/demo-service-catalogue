@@ -73,3 +73,15 @@ to provide a better starting point to build a custom UI.
 
 [Figma design](https://www.figma.com/design/ysHgC60ucc0Cskd1ZCW2Xe/Catalogue-Design?node-id=0-1&t=hMAWTp66pkVszys1-1)  
 [Specification](./SPECIFICATION.md) with progress tracking
+
+#### Attribution
+
+Project uses some free svg images  
+https://freesvg.org/space-invaders-pixel-vector-image  
+https://thenounproject.com/icon/cctv-1407975/  
+https://en.silhouette-ac.com/silhouette/139397/production-line  
+https://svgsilh.com/image/159109.html  
+https://www.svgrepo.com/svg/260020/floppy-disk-save  
+https://commons.wikimedia.org/wiki/File:Fireman_put_out_fire_silhouette_by_mimooh.svg  
+https://svgsilh.com/image/159600.html
+
