@@ -76,7 +76,7 @@ to provide a better starting point to build a custom UI.
 
 #### Attribution
 
-Project uses some free svg images  
+Project uses these free svg images  
 https://freesvg.org/space-invaders-pixel-vector-image  
 https://thenounproject.com/icon/cctv-1407975/  
 https://en.silhouette-ac.com/silhouette/139397/production-line  
