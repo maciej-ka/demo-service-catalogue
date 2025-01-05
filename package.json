@@ -7,14 +7,14 @@
   "scripts": {
     "build": "vite build",
     "debug:docker": "docker build -t demo-catalogue . && docker run --rm -it demo-catalogue bash",
-    "linter:fix": "eslint . --fix",
+    "eslint:fix": "eslint . --fix",
     "prettier:fix": "prettier --write .",
     "start": "vite",
     "start:docker": "docker build -t demo-catalogue . && docker run --rm -p 8000:80 demo-catalogue",
-    "test": "npm run test:prettier && npm run test:linter && npm run test:typescript && npm run test:integration",
+    "test": "npm run test:prettier && npm run test:eslint && npm run test:typescript && npm run test:integration",
+    "test:eslint": "eslint .",
     "test:integration": "playwright test",
     "test:integration:ui": "playwright test --ui",
-    "test:linter": "eslint .",
     "test:prettier": "prettier --check .",
     "test:typescript": "tsc --noEmit"
   },
