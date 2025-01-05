@@ -1,4 +1,12 @@
-export const services = [
+export type Service = {
+  id: number
+  name: string
+  shortDescription: string
+  detailedDescription: string
+  price: string
+}
+
+export const services: Service[] = [
   {
     id: 1,
     name: "Antivirus as a Service",
@@ -33,7 +41,7 @@ export const services = [
   },
   {
     id: 5,
-    name: "Disaster Recovery as a Service",
+    name: "Disaster Recovery",
     shortDescription: "Ensure business continuity during disruptions.",
     detailedDescription:
       "Disaster Recovery as a Service offers a robust solution for maintaining operations during unexpected events. With quick recovery times and strategic planning, reduce downtime and protect your assets.",
