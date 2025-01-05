@@ -2,7 +2,7 @@
   --fg: #373006;
   --bg: #ffffff;
   --border: #eaeaea;
-  --shadow: rgba(0, 0, 0, 0.30);
+  --shadow: rgba(0, 0, 0, 0.3);
   --svg: #efefef;
 }
 
@@ -11,7 +11,7 @@
     --fg: #bbb8af;
     --bg: #181818;
     --border: #101010;
-    --shadow: rgba(0, 0, 0, 0.80);
+    --shadow: rgba(0, 0, 0, 0.8);
     --svg: #2e2c1c;
   }
 }
@@ -24,7 +24,9 @@ body {
 /*
  * css reset
  */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -37,16 +39,23 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img, svg {
+img,
+svg {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
-p, h1, h2, h3 {
+p,
+h1,
+h2,
+h3 {
   overflow-wrap: break-word;
 }
 
@@ -54,7 +63,8 @@ p {
   text-wrap: pretty;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-wrap: balance;
 }
-
