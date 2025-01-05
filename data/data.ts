@@ -41,7 +41,7 @@ export const services: Service[] = [
   },
   {
     id: 5,
-    name: "Disaster Recovery as a Service",
+    name: "Disaster Recovery",
     shortDescription: "Ensure business continuity during disruptions.",
     detailedDescription:
       "Disaster Recovery as a Service offers a robust solution for maintaining operations during unexpected events. With quick recovery times and strategic planning, reduce downtime and protect your assets.",
