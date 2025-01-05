@@ -4,7 +4,7 @@
 
 https://demo-service-catalogue.vercel.app/
 
-#### Run locally
+#### Run on local
 
 ```bash
 git clone https://github.com/maciej-ka/demo-service-catalogue.git
@@ -36,7 +36,7 @@ npm run debug:docker
 #### Tests and checks
 
 Project has several tests and checks.  
-They are reported in pull requests
+They are all reported in pull requests
 
 - prettier `npm run test:prettier`
 - eslint `npm run test:eslint`
@@ -71,5 +71,5 @@ to provide a better starting point to build a custom UI.
 
 #### Links
 
-[Figma design](https://www.figma.com/design/ysHgC60ucc0Cskd1ZCW2Xe/Catalogue-Design?node-id=0-1&t=hMAWTp66pkVszys1-1): public view only  
-[Specification](./SPECIFICATION.md): with progress tracking
+[Figma design](https://www.figma.com/design/ysHgC60ucc0Cskd1ZCW2Xe/Catalogue-Design?node-id=0-1&t=hMAWTp66pkVszys1-1)  
+[Specification](./SPECIFICATION.md) with progress tracking
