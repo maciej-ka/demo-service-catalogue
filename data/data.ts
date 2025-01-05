@@ -1,4 +1,12 @@
-export const services = [
+export type Service = {
+  id: number
+  name: string
+  shortDescription: string
+  detailedDescription: string
+  price: string
+}
+
+export const services: Service[] = [
   {
     id: 1,
     name: "Antivirus as a Service",
