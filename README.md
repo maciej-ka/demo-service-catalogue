@@ -71,8 +71,8 @@ to provide a better starting point to build a custom UI.
 
 #### Design
 
-View [figma design](https://www.figma.com/design/ysHgC60ucc0Cskd1ZCW2Xe/Catalogue-Design?node-id=0-1&t=hMAWTp66pkVszys1-1).
+View [Figma design](https://www.figma.com/design/ysHgC60ucc0Cskd1ZCW2Xe/Catalogue-Design?node-id=0-1&t=hMAWTp66pkVszys1-1) (read only).
 
 #### Specification
 
-View [SPECIFICATION.md](./SPECIFICATION.md) to see progress on completing requirements.
+View [Specification](./SPECIFICATION.md) to see progress on completing requirements.
