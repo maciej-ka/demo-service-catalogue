@@ -39,7 +39,7 @@ Project has several tests and checks.
 They are reported in pull requests
 
 - prettier `npm run test:prettier`
-- eslint `npm run test:linter`
+- eslint `npm run test:eslint`
 - typescript `npm run test:typescript`
 - playwright `npm run test:integration`
 
@@ -49,10 +49,10 @@ Run them all locally
 npm test
 ```
 
-Fix Linter and Prettier
+Fix ESLint and Prettier
 
 ```bash
-npm run linter:fix
+npm run eslint:fix
 npm run prettier:fix
 ```
 
@@ -69,6 +69,10 @@ Files are organized as given in specification example.
 HeadlessUI is used instead of base html tags like `<input>`  
 to provide a better starting point to build a custom UI.
 
+#### Design
+
+View [figma design](https://www.figma.com/design/ysHgC60ucc0Cskd1ZCW2Xe/Catalogue-Design?node-id=0-1&t=hMAWTp66pkVszys1-1).
+
 #### Specification
 
-View [SPECIFICATION.md](./SPECIFICATION.md) to see progress on completing requirements
+View [SPECIFICATION.md](./SPECIFICATION.md) to see progress on completing requirements.
