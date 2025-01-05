@@ -69,10 +69,7 @@ Files are organized as given in specification example.
 HeadlessUI is used instead of base html tags like `<input>`  
 to provide a better starting point to build a custom UI.
 
-#### Design
+#### Links
 
-View [Figma design](https://www.figma.com/design/ysHgC60ucc0Cskd1ZCW2Xe/Catalogue-Design?node-id=0-1&t=hMAWTp66pkVszys1-1) (read only).
-
-#### Specification
-
-View [Specification](./SPECIFICATION.md) to see progress on completing requirements.
+[Figma design](https://www.figma.com/design/ysHgC60ucc0Cskd1ZCW2Xe/Catalogue-Design?node-id=0-1&t=hMAWTp66pkVszys1-1): public view only  
+[Specification](./SPECIFICATION.md): with progress tracking
