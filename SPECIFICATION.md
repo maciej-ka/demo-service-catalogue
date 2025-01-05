@@ -68,7 +68,7 @@ and will use mocked data for demonstration purposes.
 - [x] Styling: **CSS Modules** / TailwindCSS / Styled Components
 - [x] Package Management: **npm** or yarn
 
-#### 1.5. Mock Data (daja.js)
+#### 1.5. Mock Data (data.js)
 
 ```javascript
 export const services = [
