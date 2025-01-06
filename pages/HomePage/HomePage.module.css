@@ -7,8 +7,15 @@
 }
 
 .service {
-  padding: 12px 18px 0;
   height: 88px;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  padding: 12px 18px 0;
 }
 
 .service + .service {
