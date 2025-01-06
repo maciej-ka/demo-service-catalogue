@@ -12,13 +12,14 @@
     --bg: #181818;
     --border: #101010;
     --shadow: rgba(0, 0, 0, 0.8);
-    --svg: #2e2c1c;
+    --svg: 0f0e0b;
   }
 }
 
 * {
   margin: 0;
   text-wrap: balance;
+  box-sizing: border-box;
 }
 
 body {
