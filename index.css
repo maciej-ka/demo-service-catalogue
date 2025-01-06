@@ -16,56 +16,55 @@
   }
 }
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  text-wrap: balance;
+}
+
 body {
   color: var(--fg);
   background: var(--bg);
   font-family: Nunito, serif;
-}
-
-/*
- * css reset
- */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-body {
-  line-height: 1.5;
+  font-size: 12px;
   -webkit-font-smoothing: antialiased;
+  /* font-optical-sizing: auto; */
 }
 
-img,
-svg {
-  display: block;
-  max-width: 100%;
-}
 
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
 
-p,
-h1,
-h2,
-h3 {
-  overflow-wrap: break-word;
-}
+/* *, */
+/* *::before, */
+/* *::after { */
+/*   box-sizing: border-box; */
+/* } */
 
-p {
-  text-wrap: pretty;
-}
+/* body { */
+/*   line-height: 1.5; */
+/* } */
 
-h1,
-h2,
-h3 {
-  text-wrap: balance;
-}
+/* img, */
+/* svg { */
+/*   display: block; */
+/*   max-width: 100%; */
+/* } */
+
+/* input, */
+/* button, */
+/* textarea, */
+/* select { */
+/*   font: inherit; */
+/* } */
+
+/* p, */
+/* h1, */
+/* h2, */
+/* h3 { */
+/*   overflow-wrap: break-word; */
+/*   text-wrap: balance; */
+/* } */
+
+/* p { */
+/*   text-wrap: pretty; */
+/* } */
