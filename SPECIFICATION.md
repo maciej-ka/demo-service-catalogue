@@ -25,11 +25,11 @@ and will use mocked data for demonstration purposes.
 
 **1.1. Service List Page**
 
-- [X] Display a list of available services.
-- [X] Each service should show:
-  - [X] Service Name
-  - [X] Short Description
-  - [X] Price
+- [x] Display a list of available services.
+- [x] Each service should show:
+  - [x] Service Name
+  - [x] Short Description
+  - [x] Price
 - [ ] Include a “View Details” button/link for each service to navigate to the detailed view.
 
 **1.2. Service Details Page**
@@ -61,12 +61,12 @@ and will use mocked data for demonstration purposes.
 
 #### 1.4. Technology Stack
 
-- [X] Framework: **React** (latest version)
+- [x] Framework: **React** (latest version)
 - [ ] State Management: Context API or Redux (optional)
-- [X] Routing: **React Router**
+- [x] Routing: **React Router**
 - [ ] Data Handling: Mocked Data (as provided below)
-- [X] Styling: **CSS Modules** / TailwindCSS / Styled Components
-- [X] Package Management: **npm** or yarn
+- [x] Styling: **CSS Modules** / TailwindCSS / Styled Components
+- [x] Package Management: **npm** or yarn
 
 #### 1.5. Mock Data (data.js)
 
@@ -129,9 +129,9 @@ export const services = [
 
 **1. Navigation:**
 
-- [X] `/` → Service List
-- [X] `/service/:id` → Service Details
-- [X] `/service/:id/order` → Order Wizard
+- [x] `/` → Service List
+- [x] `/service/:id` → Service Details
+- [x] `/service/:id/order` → Order Wizard
 
 **2. State Management:**
 
@@ -154,13 +154,13 @@ export const services = [
 
 #### 6. Deliverables
 
-- [X] Source Code: Hosted on a public or private GitHub/GitLab repository.
+- [x] Source Code: Hosted on a public or private GitHub/GitLab repository.
 - [ ] README.md:
-  - [X] Setup instructions.
+  - [x] Setup instructions.
   - [ ] Brief explanation of the project structure.
-  - [X] Steps to run the project locally.
+  - [x] Steps to run the project locally.
 - [ ] Working Prototype: A functioning React app demonstrating the described functionality.
-- [X] Bonus Deliverable (Optional): Deployment on Netlify, **Vercel**, or any other platform.
+- [x] Bonus Deliverable (Optional): Deployment on Netlify, **Vercel**, or any other platform.
 
 #### 7. Evaluation Criteria
 
@@ -169,15 +169,15 @@ export const services = [
 - [ ] State Management: Proper handling of state across components.
 - [ ] API Integration: Effective use of mocked data.
 - [ ] Responsiveness: Proper layout and design on different devices.
-- [X] Documentation: Clear and concise README file.
+- [x] Documentation: Clear and concise README file.
 - [ ] Error Handling: Clear error messages and validation on user inputs.
 
 #### 8. Bonus Points
 
 - [ ] Implement Pagination on the service list page.
 - [ ] Add Search and Filtering functionality.
-- [X] Use TypeScript instead of JavaScript.
-- [X] Dockerize the application for easier deployment.
+- [x] Use TypeScript instead of JavaScript.
+- [x] Dockerize the application for easier deployment.
 
 #### 9. Submission Deadline
 

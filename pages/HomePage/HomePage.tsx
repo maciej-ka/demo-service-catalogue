@@ -1,6 +1,6 @@
 import styles from "./HomePage.module.css"
 import { Service } from "../../data/data"
-import { useServices } from "../../components/ServicesProvider"
+import { useServices } from "../../data/ServicesProvider"
 import Svg from "../../components/ui/Svg/Svg"
 
 const HomePage = () => {

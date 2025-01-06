@@ -2,7 +2,7 @@ import { Routes, Route, Navigate } from "react-router-dom"
 import ServiceOrderPage from "./pages/ServiceOrderPage/ServiceOrderPage"
 import ServiceDetailsPage from "./pages/ServiceDetailsPage/ServiceDetailsPage"
 import HomePage from "./pages/HomePage/HomePage"
-import ServicesProvider from "./components/ServicesProvider"
+import ServicesProvider from "./data/ServicesProvider"
 
 const App = () => (
   <ServicesProvider>
