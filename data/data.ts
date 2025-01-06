@@ -1,9 +1,12 @@
+import { SvgName } from "../components/ui/Svg/Svg"
+
 export type Service = {
   id: number
   name: string
   shortDescription: string
   detailedDescription: string
   price: string
+  background: SvgName
 }
 
 export const services: Service[] = [
@@ -14,6 +17,7 @@ export const services: Service[] = [
     detailedDescription:
       "Antivirus as a Service provides comprehensive protection against malware, ransomware, and phishing attacks. With real-time threat detection, automatic updates, and centralized management, your business remains secure and compliant.",
     price: "149 PLN/month",
+    background: "invaders"
   },
   {
     id: 2,
@@ -22,6 +26,7 @@ export const services: Service[] = [
     detailedDescription:
       "Monitoring as a Service offers 24/7 performance tracking and alerts for your servers, applications, and network devices. Reduce downtime and ensure optimal performance with customizable dashboards and detailed reporting.",
     price: "299 PLN/month",
+    background: "monitoring"
   },
   {
     id: 3,
@@ -30,6 +35,7 @@ export const services: Service[] = [
     detailedDescription:
       "Automation as a Service enables businesses to automate repetitive tasks and workflows. From process optimization to integration with third-party tools, improve efficiency and reduce manual errors with our flexible automation solutions.",
     price: "399 PLN/month",
+    background: "automation"
   },
   {
     id: 4,
@@ -38,6 +44,7 @@ export const services: Service[] = [
     detailedDescription:
       "Backup as a Service ensures your critical data is protected with automated backups and reliable recovery options. Safeguard your business from data loss with our scalable and compliant solutions.",
     price: "249 PLN/month",
+    background: "backup"
   },
   {
     id: 5,
@@ -46,6 +53,7 @@ export const services: Service[] = [
     detailedDescription:
       "Disaster Recovery as a Service offers a robust solution for maintaining operations during unexpected events. With quick recovery times and strategic planning, reduce downtime and protect your assets.",
     price: "599 PLN/month",
+    background: "recovery"
   },
   {
     id: 6,
@@ -54,6 +62,7 @@ export const services: Service[] = [
     detailedDescription:
       "Storage as a Service provides secure and cost-effective cloud storage tailored to your needs. Access your data anytime, anywhere, with advanced security features and seamless integration.",
     price: "199 PLN/month",
+    background: "clubs"
   },
   {
     id: 7,
@@ -62,6 +71,7 @@ export const services: Service[] = [
     detailedDescription:
       "AI as a Service provides tools and platforms for implementing AI-driven solutions in your business. From predictive analytics to chatbots, transform your operations with cutting-edge technology.",
     price: "499 PLN/month",
+    background: "diamonds"
   },
   {
     id: 8,
@@ -70,6 +80,7 @@ export const services: Service[] = [
     detailedDescription:
       "Database as a Service offers scalable and secure database hosting with 24/7 support. Focus on your applications while we handle maintenance, backups, and optimization.",
     price: "349 PLN/month",
+    background: "hearts"
   },
   {
     id: 9,
@@ -78,6 +89,7 @@ export const services: Service[] = [
     detailedDescription:
       "Security as a Service provides robust protection against cyber threats with firewall management, intrusion detection, and threat mitigation strategies, ensuring your business remains secure.",
     price: "399 PLN/month",
+    background: "spades"
   },
   {
     id: 10,
@@ -86,6 +98,7 @@ export const services: Service[] = [
     detailedDescription:
       "DevOps as a Service helps you accelerate software delivery with CI/CD pipelines, infrastructure automation, and performance monitoring. Achieve faster releases and improved collaboration.",
     price: "499 PLN/month",
+    background: "clubs"
   },
   {
     id: 11,
@@ -94,6 +107,7 @@ export const services: Service[] = [
     detailedDescription:
       "Email as a Service provides secure and professional email hosting with custom domains, spam filtering, and robust administrative controls for seamless communication.",
     price: "99 PLN/month",
+    background: "diamonds"
   },
   {
     id: 12,
@@ -102,6 +116,7 @@ export const services: Service[] = [
     detailedDescription:
       "VPN as a Service ensures secure and encrypted connections for remote employees, providing privacy and protection against cyber threats.",
     price: "199 PLN/month",
+    background: "hearts"
   },
   {
     id: 13,
@@ -110,6 +125,7 @@ export const services: Service[] = [
     detailedDescription:
       "Analytics as a Service offers powerful tools for data analysis, visualization, and reporting. Uncover trends and make informed decisions with our user-friendly dashboards.",
     price: "349 PLN/month",
+    background: "spades"
   },
   {
     id: 14,
@@ -118,6 +134,7 @@ export const services: Service[] = [
     detailedDescription:
       "Integration as a Service connects your systems and applications, enabling smooth data flow and enhanced collaboration for improved business efficiency.",
     price: "299 PLN/month",
+    background: "clubs"
   },
   {
     id: 15,
@@ -126,6 +143,7 @@ export const services: Service[] = [
     detailedDescription:
       "IoT as a Service provides the infrastructure and tools needed to deploy and manage IoT devices, ensuring seamless connectivity and data processing.",
     price: "599 PLN/month",
+    background: "diamonds"
   },
   {
     id: 16,
@@ -134,6 +152,7 @@ export const services: Service[] = [
     detailedDescription:
       "Blockchain as a Service offers the tools and platforms needed to develop, deploy, and manage blockchain solutions, streamlining operations and enhancing transparency.",
     price: "799 PLN/month",
+    background: "hearts"
   },
   {
     id: 17,
@@ -142,6 +161,7 @@ export const services: Service[] = [
     detailedDescription:
       "Support as a Service ensures your business gets expert help when needed with our team of professionals ready to resolve issues and provide guidance.",
     price: "149 PLN/month",
+    background: "spades"
   },
   {
     id: 18,
@@ -150,6 +170,7 @@ export const services: Service[] = [
     detailedDescription:
       "Compliance as a Service offers tools and expertise to ensure your business meets legal and regulatory requirements, minimizing risks and penalties.",
     price: "399 PLN/month",
+    background: "clubs"
   },
   {
     id: 19,
@@ -158,6 +179,7 @@ export const services: Service[] = [
     detailedDescription:
       "Testing as a Service provides end-to-end testing for your software applications, ensuring reliability and performance with automated and manual testing.",
     price: "299 PLN/month",
+    background: "diamonds"
   },
   {
     id: 20,
@@ -166,6 +188,7 @@ export const services: Service[] = [
     detailedDescription:
       "CMS as a Service offers a robust platform for creating, managing, and optimizing your website content, with full support and scalability.",
     price: "249 PLN/month",
+    background: "hearts"
   },
   {
     id: 21,
@@ -174,6 +197,7 @@ export const services: Service[] = [
     detailedDescription:
       "Collaboration as a Service provides tools and platforms for real-time communication, project management, and file sharing, enabling seamless teamwork.",
     price: "199 PLN/month",
+    background: "spades"
   },
   {
     id: 22,
@@ -182,6 +206,7 @@ export const services: Service[] = [
     detailedDescription:
       "Chatbot as a Service delivers intelligent virtual assistants to handle customer queries, improving response times and enhancing user satisfaction.",
     price: "299 PLN/month",
+    background: "clubs"
   },
   {
     id: 23,
@@ -190,6 +215,7 @@ export const services: Service[] = [
     detailedDescription:
       "Video Conferencing as a Service ensures reliable, secure, and feature-rich virtual meeting solutions for businesses of all sizes.",
     price: "249 PLN/month",
+    background: "diamonds"
   },
   {
     id: 24,
@@ -198,6 +224,7 @@ export const services: Service[] = [
     detailedDescription:
       "eCommerce as a Service offers end-to-end solutions for setting up, managing, and optimizing online stores, complete with analytics and marketing tools.",
     price: "499 PLN/month",
+    background: "hearts"
   },
   {
     id: 25,
@@ -206,6 +233,7 @@ export const services: Service[] = [
     detailedDescription:
       "HR as a Service provides tools for payroll, benefits management, recruitment, and employee engagement, reducing administrative overhead.",
     price: "399 PLN/month",
+    background: "spades"
   },
   {
     id: 26,
@@ -214,6 +242,7 @@ export const services: Service[] = [
     detailedDescription:
       "CRM as a Service delivers powerful tools for tracking customer interactions, managing sales pipelines, and enhancing customer engagement.",
     price: "349 PLN/month",
+    background: "clubs"
   },
   {
     id: 27,
@@ -222,6 +251,7 @@ export const services: Service[] = [
     detailedDescription:
       "ERP as a Service integrates key business processes into a single system, providing insights and improving operational efficiency.",
     price: "599 PLN/month",
+    background: "diamonds"
   },
   {
     id: 28,
@@ -230,6 +260,7 @@ export const services: Service[] = [
     detailedDescription:
       "Payment Gateway as a Service enables secure and efficient payment processing, supporting multiple payment methods and currencies.",
     price: "199 PLN/month",
+    background: "hearts"
   },
   {
     id: 29,
@@ -238,6 +269,7 @@ export const services: Service[] = [
     detailedDescription:
       "Search as a Service offers high-performance search and indexing tools to enhance website or application user experience.",
     price: "149 PLN/month",
+    background: "spades"
   },
   {
     id: 30,
@@ -246,6 +278,7 @@ export const services: Service[] = [
     detailedDescription:
       "Social Media as a Service provides tools for scheduling, monitoring, and analyzing social media performance to grow your brand.",
     price: "299 PLN/month",
+    background: "clubs"
   },
   {
     id: 31,
@@ -254,6 +287,7 @@ export const services: Service[] = [
     detailedDescription:
       "Learning Management as a Service provides platforms for creating and managing online courses, tracking progress, and engaging learners.",
     price: "399 PLN/month",
+    background: "diamonds"
   },
   {
     id: 32,
@@ -262,6 +296,7 @@ export const services: Service[] = [
     detailedDescription:
       "Voice as a Service offers VoIP solutions, virtual phone systems, and advanced call management features to streamline communication.",
     price: "249 PLN/month",
+    background: "hearts"
   },
   {
     id: 33,
@@ -270,6 +305,7 @@ export const services: Service[] = [
     detailedDescription:
       "Hosting as a Service provides scalable and secure hosting solutions, with 24/7 support and optimized performance.",
     price: "199 PLN/month",
+    background: "spades"
   },
   {
     id: 34,
@@ -278,6 +314,7 @@ export const services: Service[] = [
     detailedDescription:
       "Kubernetes as a Service offers managed Kubernetes clusters, enabling effortless scaling and deployment of containerized applications.",
     price: "499 PLN/month",
+    background: "clubs"
   },
   {
     id: 35,
@@ -286,6 +323,7 @@ export const services: Service[] = [
     detailedDescription:
       "Mobile App as a Service provides tools and support for building, deploying, and managing mobile applications across platforms.",
     price: "599 PLN/month",
+    background: "diamonds"
   },
   {
     id: 36,
@@ -294,6 +332,7 @@ export const services: Service[] = [
     detailedDescription:
       "Big Data as a Service offers data storage, processing, and analytics solutions to unlock insights and drive business value.",
     price: "699 PLN/month",
+    background: "hearts"
   },
   {
     id: 37,
@@ -302,6 +341,7 @@ export const services: Service[] = [
     detailedDescription:
       "API as a Service provides tools for designing, deploying, and managing APIs with advanced analytics and monitoring.",
     price: "349 PLN/month",
+    background: "spades"
   },
   {
     id: 38,
@@ -310,6 +350,7 @@ export const services: Service[] = [
     detailedDescription:
       "Identity as a Service offers secure authentication, single sign-on (SSO), and access management solutions for your business.",
     price: "299 PLN/month",
+    background: "clubs"
   },
   {
     id: 39,
@@ -318,6 +359,7 @@ export const services: Service[] = [
     detailedDescription:
       "Desktop as a Service provides secure and scalable virtual desktops, enabling remote work and reducing hardware dependency.",
     price: "399 PLN/month",
+    background: "diamonds"
   },
   {
     id: 40,
@@ -326,6 +368,7 @@ export const services: Service[] = [
     detailedDescription:
       "Gaming as a Service delivers seamless gaming experiences with low-latency performance and support for multiplayer environments.",
     price: "599 PLN/month",
+    background: "hearts"
   },
   {
     id: 41,
@@ -334,6 +377,7 @@ export const services: Service[] = [
     detailedDescription:
       "Service as a Service provides services to manage your other services. With redundant redundancies and recursive recursion, it's the ultimate solution for overcomplicating simplicity!",
     price: "999 PLN/month",
+    background: "spades"
   },
   {
     id: 42,
@@ -342,6 +386,7 @@ export const services: Service[] = [
     detailedDescription:
       "Support Desk as a Service offers ticketing systems, knowledge bases, and live chat support for effective customer service.",
     price: "299 PLN/month",
+    background: "clubs"
   },
   {
     id: 43,
@@ -350,6 +395,7 @@ export const services: Service[] = [
     detailedDescription:
       "Microservices as a Service provides tools and expertise to help you design, deploy, and manage microservices for scalable applications.",
     price: "499 PLN/month",
+    background: "diamonds"
   },
   {
     id: 44,
@@ -358,6 +404,7 @@ export const services: Service[] = [
     detailedDescription:
       "Fleet Management as a Service offers GPS tracking, maintenance alerts, and driver performance monitoring for your fleet.",
     price: "349 PLN/month",
+    background: "hearts"
   },
   {
     id: 45,
@@ -366,6 +413,7 @@ export const services: Service[] = [
     detailedDescription:
       "Robotics as a Service provides flexible solutions for deploying and managing robots for manufacturing, logistics, and more.",
     price: "899 PLN/month",
+    background: "spades"
   },
   {
     id: 46,
@@ -374,6 +422,7 @@ export const services: Service[] = [
     detailedDescription:
       "Event Management as a Service offers tools for event registration, ticketing, and attendee engagement to ensure successful events.",
     price: "399 PLN/month",
+    background: "clubs"
   },
   {
     id: 47,
@@ -382,6 +431,7 @@ export const services: Service[] = [
     detailedDescription:
       "AI Training as a Service provides courses, resources, and mentorship to help your team master AI technologies.",
     price: "499 PLN/month",
+    background: "diamonds"
   },
   {
     id: 48,
@@ -390,6 +440,7 @@ export const services: Service[] = [
     detailedDescription:
       "Video Editing as a Service provides tools and expertise for creating high-quality video content tailored to your needs.",
     price: "299 PLN/month",
+    background: "hearts"
   },
   {
     id: 49,
@@ -398,6 +449,7 @@ export const services: Service[] = [
     detailedDescription:
       "Legal as a Service offers access to legal professionals, contract drafting, and compliance advice for businesses.",
     price: "399 PLN/month",
+    background: "spades"
   },
   {
     id: 50,
@@ -406,5 +458,6 @@ export const services: Service[] = [
     detailedDescription:
       "Translation as a Service provides fast and professional translation services in multiple languages, ensuring clear communication worldwide.",
     price: "249 PLN/month",
+    background: "clubs"
   },
 ]
