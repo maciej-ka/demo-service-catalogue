@@ -1,6 +1,6 @@
 import styles from "./HomePage.module.css"
 import { useServices } from "../../data/ServicesProvider"
-import Service from "../../components/ServiceList/Service"
+import ServiceListElement from "../../components/ServiceList/ServiceListElement"
 
 const HomePage = () => {
   const services = useServices()
@@ -10,7 +10,7 @@ const HomePage = () => {
       <div className={styles.header} />
       <div className={styles.list}>
         {services.map((service) => (
-          <Service service={service} key={service.id} />
+          <ServiceListElement service={service} key={service.id} />
         ))}
       </div>
     </div>
