@@ -30,7 +30,7 @@ and will use mocked data for demonstration purposes.
   - [x] Service Name
   - [x] Short Description
   - [x] Price
-- [ ] Include a “View Details” button/link for each service to navigate to the detailed view.
+- [x] Include a “View Details” button/link for each service to navigate to the detailed view.
 
 **1.2. Service Details Page**
 
@@ -62,9 +62,9 @@ and will use mocked data for demonstration purposes.
 #### 1.4. Technology Stack
 
 - [x] Framework: **React** (latest version)
-- [ ] State Management: Context API or Redux (optional)
+- [x] State Management: **Context API** or Redux (optional)
 - [x] Routing: **React Router**
-- [ ] Data Handling: Mocked Data (as provided below)
+- [x] Data Handling: Mocked Data (as provided below)
 - [x] Styling: **CSS Modules** / TailwindCSS / Styled Components
 - [x] Package Management: **npm** or yarn
 

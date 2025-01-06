@@ -4,10 +4,11 @@ import styles from "./ServiceListElement.module.css"
 
 type Props = {
   service: Service
+  onClick?: (service: Service) => void
 }
 
-const ServiceListElement = ({ service }: Props) => (
-  <div className={styles.service}>
+const ServiceListElement = ({ service, onClick = () => {} }: Props) => (
+  <div className={styles.service} onClick={() => onClick(service)}>
     <div className={styles.content}>
       <div className="flex-spread align-center">
         <h2>{service.name}</h2>
