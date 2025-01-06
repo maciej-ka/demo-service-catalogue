@@ -1,5 +1,9 @@
 const SvgRecovery = ({ className }: { className?: string }) => (
-  <svg className={className} viewBox="0 0 320 87" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    className={className}
+    viewBox="0 0 320 87"
+    xmlns="http://www.w3.org/2000/svg"
+  >
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"
