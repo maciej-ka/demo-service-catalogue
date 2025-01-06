@@ -3,7 +3,6 @@ import tsPlugin from "@typescript-eslint/eslint-plugin"
 import tsParser from "@typescript-eslint/parser"
 import reactPlugin from "eslint-plugin-react"
 import reactHooksPlugin from "eslint-plugin-react-hooks"
-import prettierPlugin from "eslint-plugin-prettier"
 import globals from "globals"
 
 export default [
@@ -28,16 +27,17 @@ export default [
       "@typescript-eslint": tsPlugin,
       react: reactPlugin,
       "react-hooks": reactHooksPlugin,
-      prettier: prettierPlugin,
     },
     rules: {
       "react/react-in-jsx-scope": "off",
-      "prettier/prettier": "error",
     },
     settings: {
       react: {
         version: "detect",
       },
     },
+  },
+  {
+    ignores: ["node_modules", "dist", "playwright-report"],
   },
 ]

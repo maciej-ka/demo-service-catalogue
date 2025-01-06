@@ -8,64 +8,40 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fg: #bbb8af;
+    --fg: #e0dccf;
     --bg: #181818;
     --border: #101010;
     --shadow: rgba(0, 0, 0, 0.8);
-    --svg: #2e2c1c;
+    --svg: 0f0e0b;
   }
+}
+
+* {
+  margin: 0;
+  text-wrap: balance;
+  box-sizing: border-box;
 }
 
 body {
   color: var(--fg);
   background: var(--bg);
   font-family: Nunito, serif;
-}
-
-/*
- * css reset
- */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-body {
-  line-height: 1.5;
+  font-size: 12px;
   -webkit-font-smoothing: antialiased;
 }
 
-img,
-svg {
-  display: block;
-  max-width: 100%;
+h2 {
+  font-size: 16px;
+  font-weight: 650;
 }
 
-input,
-button,
-textarea,
-select {
-  font: inherit;
+.flex-spread {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-p,
-h1,
-h2,
-h3 {
-  overflow-wrap: break-word;
-}
-
-p {
-  text-wrap: pretty;
-}
-
-h1,
-h2,
-h3 {
-  text-wrap: balance;
+.align-center {
+  display: flex;
+  align-items: center;
 }
