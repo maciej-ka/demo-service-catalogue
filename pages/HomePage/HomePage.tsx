@@ -1,7 +1,10 @@
 import styles from "./HomePage.module.css"
-import { services, Service } from "../../data/data"
+import { Service } from "../../data/data"
+import { useData } from "../../components/DataProvider"
 
 const HomePage = () => {
+  const services = useData()
+
   const renderService = (service: Service) => (
     <div className={styles.service} key={service.id}>
       <div className="flex-spread align-center">
