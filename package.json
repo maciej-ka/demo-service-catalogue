@@ -1,5 +1,6 @@
 {
   "name": "demo-service-catalogue",
+  "author": "Maciej Kasprzyk <maciej.kasprzyk.it@gmail.com>",
   "version": "1.0.0",
   "type": "module",
   "description": "React-based prototype of a Service Catalogue Platform",
@@ -19,7 +20,6 @@
     "test:typescript": "tsc --noEmit"
   },
   "keywords": [],
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "@headlessui/react": "^2.2.0",
