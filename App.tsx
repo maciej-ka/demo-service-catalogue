@@ -2,16 +2,16 @@ import { Routes, Route, Navigate } from "react-router-dom"
 import ServiceOrderPage from "./pages/ServiceOrderPage/ServiceOrderPage"
 import ServiceDetailsPage from "./pages/ServiceDetailsPage/ServiceDetailsPage"
 import HomePage from "./pages/HomePage/HomePage"
-import DataProvider from "./components/DataProvider"
+import ServicesProvider from "./components/ServicesProvider"
 
 const App = () => (
-  <DataProvider>
+  <ServicesProvider>
     <Routes>
       <Route path="/service/:id/order" Component={ServiceOrderPage} />
       <Route path="/service/:id" Component={ServiceDetailsPage} />
       <Route path="/" Component={HomePage} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
-  </DataProvider>
+  </ServicesProvider>
 )
 export default App

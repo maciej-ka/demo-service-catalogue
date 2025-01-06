@@ -1,9 +1,9 @@
 import styles from "./HomePage.module.css"
 import { Service } from "../../data/data"
-import { useData } from "../../components/DataProvider"
+import { useServices } from "../../components/ServicesProvider"
 
 const HomePage = () => {
-  const services = useData()
+  const services = useServices()
 
   const renderService = (service: Service) => (
     <div className={styles.service} key={service.id}>
