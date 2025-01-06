@@ -3,7 +3,7 @@ import { services, Service } from "../../data/data"
 
 const HomePage = () => {
   const renderService = (service: Service) => (
-    <div className={styles.service}>
+    <div className={styles.service} key={service.id}>
       <div className="flex-spread align-center">
         <h2>{service.name}</h2>
         <span className={styles.price}>{service.price}</span>
