@@ -1,5 +1,5 @@
-const SvgBackup = () => (
-  <svg viewBox="0 0 320 87" xmlns="http://www.w3.org/2000/svg">
+const SvgBackup = ({ className }: { className?: string }) => (
+  <svg className={className} viewBox="0 0 320 87" xmlns="http://www.w3.org/2000/svg">
     <path
       d="M314.485 49.2067V75.4097H351.925V49.2067H314.485ZM348.783 70.2985H317.625V68.3483H348.783V70.2985ZM348.783 64.9719H317.625V63.0216H348.783V64.9719ZM348.783 59.6452H317.625V57.6949H348.783V59.6452ZM348.783 54.3177H317.625V52.3674H348.783V54.3177Z"
       fill="var(--svg)"
