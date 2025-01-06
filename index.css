@@ -19,6 +19,7 @@
 body {
   color: var(--fg);
   background: var(--bg);
+  font-family: Nunito, serif;
 }
 
 /*
