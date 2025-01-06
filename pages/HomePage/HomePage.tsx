@@ -1,5 +1,5 @@
-import styles from './HomePage.module.css'
-import {services, Service } from '../../data/data'
+import styles from "./HomePage.module.css"
+import { services, Service } from "../../data/data"
 
 const HomePage = () => {
   const renderService = (service: Service) => (
@@ -8,9 +8,7 @@ const HomePage = () => {
         <h2>{service.name}</h2>
         <span className={styles.price}>{service.price}</span>
       </div>
-      <p className={styles.shortDescription}>
-        {service.shortDescription}
-      </p>
+      <p className={styles.description}>{service.shortDescription}</p>
     </div>
   )
 
