@@ -3,16 +3,19 @@ import {services, Service } from '../../data/data'
 
 const HomePage = () => {
   const renderService = (service: Service) => (
-    <div>
-      <div className="flex">
+    <div className={styles.service}>
+      <div className="flex-spread align-center">
         <h2>{service.name}</h2>
-        price
+        <span className={styles.price}>{service.price}</span>
       </div>
+      <p className={styles.shortDescription}>
+        {service.shortDescription}
+      </p>
     </div>
   )
 
   return (
-    <div className={styles.page}>
+    <div>
       <div className={styles.header} />
       {services.map(renderService)}
     </div>

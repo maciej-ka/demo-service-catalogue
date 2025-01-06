@@ -169,7 +169,7 @@ export const services: Service[] = [
   },
   {
     id: 21,
-    name: "Collaboration as a Service",
+    name: "Collaboration",
     shortDescription: "Enhance team collaboration.",
     detailedDescription:
       "Collaboration as a Service provides tools and platforms for real-time communication, project management, and file sharing, enabling seamless teamwork.",
@@ -185,7 +185,7 @@ export const services: Service[] = [
   },
   {
     id: 23,
-    name: "Video Conferencing as a Service",
+    name: "Video Conferencing",
     shortDescription: "High-quality video communication.",
     detailedDescription:
       "Video Conferencing as a Service ensures reliable, secure, and feature-rich virtual meeting solutions for businesses of all sizes.",
@@ -225,7 +225,7 @@ export const services: Service[] = [
   },
   {
     id: 28,
-    name: "Payment Gateway as a Service",
+    name: "Payment Gateway",
     shortDescription: "Streamlined payment processing.",
     detailedDescription:
       "Payment Gateway as a Service enables secure and efficient payment processing, supporting multiple payment methods and currencies.",
@@ -241,7 +241,7 @@ export const services: Service[] = [
   },
   {
     id: 30,
-    name: "Social Media as a Service",
+    name: "Social Media",
     shortDescription: "Manage your social presence.",
     detailedDescription:
       "Social Media as a Service provides tools for scheduling, monitoring, and analyzing social media performance to grow your brand.",
@@ -249,7 +249,7 @@ export const services: Service[] = [
   },
   {
     id: 31,
-    name: "Learning Management as a Service",
+    name: "Learning Management",
     shortDescription: "Online learning made easy.",
     detailedDescription:
       "Learning Management as a Service provides platforms for creating and managing online courses, tracking progress, and engaging learners.",
@@ -329,15 +329,15 @@ export const services: Service[] = [
   },
   {
     id: 41,
-    name: "Personalization as a Service",
-    shortDescription: "Tailor experiences for your users.",
+    name: "Service as a Service",
+    shortDescription: "Meta-level service for all your services.",
     detailedDescription:
-      "Personalization as a Service provides tools for delivering targeted content and recommendations to enhance user engagement.",
-    price: "349 PLN/month",
+      "Service as a Service provides services to manage your other services. With redundant redundancies and recursive recursion, it's the ultimate solution for overcomplicating simplicity!",
+    price: "999 PLN/month",
   },
   {
     id: 42,
-    name: "Support Desk as a Service",
+    name: "Support Desk",
     shortDescription: "Managed customer support solutions.",
     detailedDescription:
       "Support Desk as a Service offers ticketing systems, knowledge bases, and live chat support for effective customer service.",
@@ -345,7 +345,7 @@ export const services: Service[] = [
   },
   {
     id: 43,
-    name: "Microservices as a Service",
+    name: "Microservices",
     shortDescription: "Adopt microservices architecture.",
     detailedDescription:
       "Microservices as a Service provides tools and expertise to help you design, deploy, and manage microservices for scalable applications.",
@@ -353,7 +353,7 @@ export const services: Service[] = [
   },
   {
     id: 44,
-    name: "Fleet Management as a Service",
+    name: "Fleet Management",
     shortDescription: "Track and manage vehicles efficiently.",
     detailedDescription:
       "Fleet Management as a Service offers GPS tracking, maintenance alerts, and driver performance monitoring for your fleet.",
@@ -369,7 +369,7 @@ export const services: Service[] = [
   },
   {
     id: 46,
-    name: "Event Management as a Service",
+    name: "Event Management",
     shortDescription: "Plan and execute events seamlessly.",
     detailedDescription:
       "Event Management as a Service offers tools for event registration, ticketing, and attendee engagement to ensure successful events.",
@@ -385,7 +385,7 @@ export const services: Service[] = [
   },
   {
     id: 48,
-    name: "Video Editing as a Service",
+    name: "Video Editing",
     shortDescription: "Professional video editing solutions.",
     detailedDescription:
       "Video Editing as a Service provides tools and expertise for creating high-quality video content tailored to your needs.",
