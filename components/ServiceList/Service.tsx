@@ -1,12 +1,12 @@
-import { Service as ServiceType } from '../../data/data';
-import Svg from '../ui/Svg/Svg';
-import styles from './Service.module.css';
+import { Service as ServiceType } from "../../data/data"
+import Svg from "../ui/Svg/Svg"
+import styles from "./Service.module.css"
 
 type Props = {
   service: ServiceType
 }
 
-const Service = ({service}: Props) => (
+const Service = ({ service }: Props) => (
   <div className={styles.service}>
     <div className={styles.content}>
       <div className="flex-spread align-center">

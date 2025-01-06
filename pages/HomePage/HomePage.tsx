@@ -9,7 +9,9 @@ const HomePage = () => {
     <div>
       <div className={styles.header} />
       <div className={styles.list}>
-        {services.map(service => <Service service={service} key={service.id} />)}
+        {services.map((service) => (
+          <Service service={service} key={service.id} />
+        ))}
       </div>
     </div>
   )
