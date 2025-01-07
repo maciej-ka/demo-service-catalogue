@@ -35,6 +35,16 @@ h2 {
   font-weight: 650;
 }
 
+input {
+  font: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  input {
+    color-scheme: dark;
+  }
+}
+
 .flex-spread {
   display: flex;
   justify-content: space-between;
