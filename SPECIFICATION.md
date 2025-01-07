@@ -51,10 +51,8 @@ and will use mocked data for demonstration purposes.
   - [ ] Display Price of the selected service
   - [ ] Input field for Additional Notes
 - [ ] Step 3: Order Summary
-
-- [ ] Display a summary of selected service details and user inputs
-- [ ] Include buttons: Back, Next, Submit Order
-
+  - [ ] Display a summary of selected service details and user inputs
+  - [ ] Include buttons: Back, Next, Submit Order
 - [ ] State Management:
   - [ ] Ensure user inputs are preserved when navigating between wizard steps.
   - [ ] Show a confirmation message upon order submission.
@@ -164,8 +162,8 @@ export const services = [
 
 #### 7. Evaluation Criteria
 
-- [ ] Code Quality: Clean, modular, and reusable components.
-- [ ] UI/UX Design: Intuitive navigation and user-friendly interface.
+- [ ] Code Quality: Clean, modular, and reusable components.  
+- [ ] UI/UX Design: Intuitive navigation and user-friendly interface.  
 - [ ] State Management: Proper handling of state across components.
 - [ ] API Integration: Effective use of mocked data.
 - [ ] Responsiveness: Proper layout and design on different devices.
