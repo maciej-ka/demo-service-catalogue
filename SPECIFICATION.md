@@ -162,8 +162,8 @@ export const services = [
 
 #### 7. Evaluation Criteria
 
-- [ ] Code Quality: Clean, modular, and reusable components.  
-- [ ] UI/UX Design: Intuitive navigation and user-friendly interface.  
+- [ ] Code Quality: Clean, modular, and reusable components.
+- [ ] UI/UX Design: Intuitive navigation and user-friendly interface.
 - [ ] State Management: Proper handling of state across components.
 - [ ] API Integration: Effective use of mocked data.
 - [ ] Responsiveness: Proper layout and design on different devices.
