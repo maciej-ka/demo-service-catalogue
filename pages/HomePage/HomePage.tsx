@@ -1,6 +1,6 @@
 import styles from "./HomePage.module.css"
 import { useServices } from "../../data/ServicesProvider"
-import ServiceListElement from "../../components/ServiceList/ServiceListElement"
+import ServiceListElement from "../../components/ServiceListElement/ServiceListElement"
 import { useNavigate } from "react-router-dom"
 import { Service } from "../../data/data"
 
